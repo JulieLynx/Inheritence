@@ -36,12 +36,11 @@ namespace ConsoleApp6
 		{
 			base.info();
 			Console.WriteLine("Exp:\t: " + Exp, "\nSubject:\t" + Subject);
-			//First name: " + First, "\nSecond name: " + Last + "\nAge: " + Age + "\n
 		}
 		public override string ToString()
 		{
-			return $"Exp:\t{Exp}\nSubject:\t{Subject}";
-			//First name:\t{First}\n Last name:\t{Last}\nAge:\t {Age}\n
+			return $"First name:\t{First}\nLast name:\t{Last}\nAge:\t {Age}\nExp:\t{Exp}\nSubject:\t{Subject}";
+			
 		}
 	}
 }

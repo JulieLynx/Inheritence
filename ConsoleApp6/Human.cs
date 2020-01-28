@@ -50,7 +50,7 @@ namespace ConsoleApp6
 		}
 		public override string ToString()
 		{
-			return $"First name:\t{First}\n Last name:\t{Last}\nAge:\t {Age}";
+			return $"First name:\t{First}\nLast name:\t{Last}\nAge:\t {Age}";
 		}
 	}
 }

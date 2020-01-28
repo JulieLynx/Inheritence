@@ -43,12 +43,11 @@ namespace ConsoleApp6
 		{
 			base.info();
 			Console.WriteLine( "\nRaiting:\t" + Rating + "\nGroup:\t" + Group + "\nCourse:\t" + Course);
-			//"First name: " + First, "\nSecond name: " + Last + "\nAge: " + Age +
 		}
 		public override string ToString()
 		{
-			return $"Rating:\t{Rating}\nGroup:\t{Group}\nCourse:\t{Course}";
-			//First name:\t{First}\n Last name:\t{Last}\nAge:\t{Age}\n
+			return $"First name:\t{First}\nLast name:\t{Last}\nAge:\t{Age}\nRating:\t{Rating}\nGroup:\t{Group}\nCourse:\t{Course}";
+			
 		}
 	}
 }
