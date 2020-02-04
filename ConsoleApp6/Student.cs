@@ -21,6 +21,7 @@ namespace ConsoleApp6
 		{
 			get => group;
 			set => group = value;
+
 		}
 		public int Course
 		{
