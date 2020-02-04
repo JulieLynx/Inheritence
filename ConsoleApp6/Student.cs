@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
+
 
 namespace ConsoleApp6
 {
@@ -20,7 +22,20 @@ namespace ConsoleApp6
 		public string Group
 		{
 			get => group;
-			set => group = value;
+			set
+            {
+                if (value.Length > 0)
+                {
+                    value.ToLower();
+                    group = value;
+                }
+                //Console.WriteLine(Regex.IsMatch(value, "[^a-z]", RegexOptions.IgnoreCase));
+                //Console.ReadKey();
+                if (Regex.IsMatch(value, "[^a-zа-я]", RegexOptions.IgnoreCase))
+                {
+                    throw new Exception("Bad group name");
+                }
+            }
 
 		}
 		public int Course

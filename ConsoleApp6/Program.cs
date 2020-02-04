@@ -15,13 +15,13 @@ namespace ConsoleApp6
                 Human A = new Human("Игорь", "Витальевич", 100);
                 Console.WriteLine(A);
                 Console.WriteLine("===========================");
-                Student B = new Student("Игорь", "Виталевич", 17, 99, "ІЕП ", 3);
+                Student B = new Student("Игорь", "Виталевич", 17, 99, "СТУ ПВ", 3);
                 Console.WriteLine(B);
                 Console.WriteLine("===========================");
                 Teacher C = new Teacher("Severus", "Sneg", 45, 976, "Potions");
                 Console.WriteLine(C);
                 Console.WriteLine("===========================");
-                Graduate D = new Graduate("Игорь", "Витальевич", 17, 99, "ІЕП ", 3, "Koronavirus");
+                Graduate D = new Graduate("Игорь", "Витальевич", 17, 99, "СТУ ПВ", 3, "Koronavirus");
                 Console.WriteLine(D);
                 Console.WriteLine("===========================");
             }
