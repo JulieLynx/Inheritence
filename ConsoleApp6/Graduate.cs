@@ -37,7 +37,7 @@ namespace ConsoleApp6
 		}
 		public override string ToString()
 		{
-			return $"First name:\t{ First}\nLast name:\t{ Last}\nAge:\t{ Age}\nRating:\t{ Rating}\nGroup:\t{ Group}\nCourse:\t{ Course}\nDiploma theme:\t{Diploma_theme}";
+			return base.ToString()+$"\nDiploma theme:\t{Diploma_theme}";
 		}
 	}
 }
