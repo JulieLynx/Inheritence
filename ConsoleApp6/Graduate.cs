@@ -40,9 +40,9 @@ namespace ConsoleApp6
                 }
                 //Console.WriteLine(Regex.IsMatch(value, "[^a-z]", RegexOptions.IgnoreCase));
                 //Console.ReadKey();
-                if (Regex.IsMatch(value, "[^_a-zа-я0-9],[^@.org]", RegexOptions.IgnoreCase))
+                if (Regex.IsMatch(value, "[^_a-zа-я0-9]^@[^a-z].[^a-z]{1,4}", RegexOptions.IgnoreCase))
                 {
-                    throw new Exception("Bad last name");
+                    throw new Exception("Bad mail");
                 }
 
             }

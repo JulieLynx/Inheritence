@@ -21,7 +21,7 @@ namespace ConsoleApp6
                 Teacher C = new Teacher("Severus", "Sneg", 45, 976, "Potions");
                 Console.WriteLine(C);
                 Console.WriteLine("===========================");
-                Graduate D = new Graduate("Игорь", "Витальевич", 17, 99, "СТУ ПВ 74 ", 3, "Koronavirus","dfgd");
+                Graduate D = new Graduate("Игорь", "Витальевич", 17, 99, "СТУ ПВ 74 ", 3, "Koronavirus","yfghf_hihf67");
                 Console.WriteLine(D);
                 Console.WriteLine("===========================");
             }
