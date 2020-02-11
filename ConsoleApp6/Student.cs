@@ -31,7 +31,7 @@ namespace ConsoleApp6
                 }
                 //Console.WriteLine(Regex.IsMatch(value, "[^a-z]", RegexOptions.IgnoreCase));
                 //Console.ReadKey();
-                if (Regex.IsMatch(value, "[^a-zа-я]", RegexOptions.IgnoreCase))
+                if (Regex.IsMatch(value, "[^\\sa-zа-я0-9]", RegexOptions.IgnoreCase))
                 {
                     throw new Exception("Bad group name");
                 }

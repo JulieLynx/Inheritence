@@ -12,6 +12,7 @@ namespace ConsoleApp6
         string last;
         string first;
         uint age;
+       
         public string Last
         {
             get
